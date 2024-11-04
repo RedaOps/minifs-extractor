@@ -1,0 +1,12 @@
+[package]
+name = "minifs-extractor"
+version = "1.0.0"
+edition = "2021"
+description = "A simple CLI tool to extract files from a minifs binary."
+license = "MIT"
+authors = ["Tudor Gheorghiu <tudor.reda@gmail.com>"]
+repository = "https://github.com/RedaOps/minifs-extractor"
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+rust-lzma = "0.6.0"
